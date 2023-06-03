@@ -8,6 +8,7 @@
 
 <body>
 <?php
+    include 'navbar.php'; 
     require('db.php');
     session_start();
     // When form submitted, check and create user session.

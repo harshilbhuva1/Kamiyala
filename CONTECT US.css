@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+
+.body{
+  margin:0;
+  padding:0;
+  }
+
+h2{
+  font-size:35px;
+  text-align:center;
+  font-family:Cherry Swash;
+  text-shadow:2px 1px 1px #fff;
+}
+
+.formBox{
+  margin:200px auto;
+  max-width:500px;
+  background:#000;
+  padding:50px;
+  border-radius:20px;
+  box-shadow:5px 4px 10px;
+}
+
+.inputBox{
+  position:relative;
+  margin-top:40px;
+  border-size:border-box;
+  }
+
+
+.input{
+  width:100%;
+  height:40px;
+  border:none;
+  border-bottom:1px solid #fff;
+  outline:none;
+  background:transparent;
+}
+
+.inputText{
+  font-family:Cherry Swash;
+  position:absolute;
+  color:white;
+  line-height:50px;
+  transition:.5s ease;
+  opacity:.5;
+}
+
+
+.focus .inputText{
+  transform:translateY(-30px);
+  color:red;
+}
+
+textarea{
+  height:100px !important;
+  border:none;
+  border-bottom:2px solid #ddd;
+  background:transparent;
+  
+}
+
+.button{
+  font-family:Cherry Swash;   
+  width:100%;
+  height:40px;
+  border:none;
+  font-weight:bold;
+  font-size:20px;
+  border-radius:10px;
+  position:relative;
+  top:40px;
+  outline:none;
+}
+
+.button:hover{
+   background:#42ebf4;
+}
